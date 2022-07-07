@@ -1,0 +1,47 @@
+.itemContainer {
+    width: 357px;
+    height: 120px;
+    background-color: #fcdbdd;
+    display: flex;
+    border-radius: 6px;
+    .itemContainerLeft {
+        flex: 2;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        font-size: 16px;
+        line-height: 26px;
+
+        .itemContainerLeftTitle {
+            color: #F04A15;
+            font-weight: 700;
+        }
+
+        .itemContainerLeftDate {
+            color: #595959;
+            font-weight: 600;
+        }
+    }
+
+    .itemContainerRight {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px dashed #F04A15 ;
+        .itemContainerRightBut {
+            font-style: 16px;
+            line-height: 26px;
+            font-weight: 800;
+            color: #ffffff;
+            background-color: #F04A15;
+            width: 80px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 22px;
+            
+        }
+    }
+}
